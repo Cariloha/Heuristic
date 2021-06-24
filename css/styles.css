@@ -1,0 +1,1182 @@
+/*** Add your styles here **/
+
+.bg-primary {
+    background-color: #1e2337!important
+}
+
+.bg-secondary {
+    background-color: #fff!important
+}
+
+br {
+    margin: 1em 0;
+    /* FF for instance */
+    line-height: 0em;
+    /* chrome for instance */
+}
+ 
+/*--------------------Nuevo CSS--------------------*/
+.headerContacto{
+
+}
+.headerContacto .secondnavbar {
+    background-color: #1e2337 !important;
+}
+.headerEspacios {
+    background: url(../img/espacios/espacios-head.png) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.headerEspacios .secondnavbar {
+    background-color: #1e2337 !important;
+}
+.headerInsta {
+    background: url(../img/instalaciones/instalaciones-header.png) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.headerInsta .secondnavbar {
+    background-color: #1e2337 !important;
+}
+.positiones{
+    position: relative;
+    top:28rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #fff;
+}
+/*--------------------Nuevo CSS--------------------*/
+
+
+/**Navbar**/
+
+.rregular18nb {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header {
+    background: url(../img/heuristic-secundarias-head.png) no-repeat center;
+   background-size: 100% 100%;
+    min-height: 100vh;
+
+}
+
+
+.logonav{
+    width: 200px;
+    height: auto;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+
+
+.header .btnheader {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background: none;
+    width: 350px;
+    height: 75px;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: auto;
+    
+}
+/*
+.header .navbar-nav > li > a:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+    border-bottom: 3px solid #00daa6;
+    width: 50%;
+}*/
+
+.header .btn-flotante > a:hover{
+    text-decoration: none;
+    background-color: #00daa6 !important;
+    border-color: #00daa6;
+    border-style: solid;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: rgb(245, 239, 243);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(245, 239, 243)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 0px;
+}
+
+.navbar-nav.home{
+    height: 30px;
+}
+
+.rregular18nv {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;
+}
+
+a:active .btnhead {
+    color: #ffff;
+}
+
+.buttoncontact {
+    border-radius: 25px;
+    border-style: none;
+    background: #00daa6;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+}
+
+.buttonvolver {
+    border-radius: 25px;
+    border-style: none;
+    background: #00daa6;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+}
+
+
+#btnFixed {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#00daa6; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 64px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width:180px;
+    height:60px;
+    text-align: center;
+
+}
+
+a.fixed{
+    color: #ffff;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.contact{
+    width: 25px;
+    height: auto;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #00daa6;
+    border-color: #00daa6;
+    border-radius: 65px 64px 64px 64px;
+}
+
+
+.position {
+    margin-top: 5rem;
+}
+
+.posbtn {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+
+.imgx {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-bottom-border {
+    margin: 3px auto;
+    width: 50px;
+    display: block;
+    border-bottom: 3px solid #00daa6;
+    display: none;
+}
+
+.nav-item:hover .navbar-bottom-border {
+    display: block;
+}
+
+
+
+/**Termina Navbar **/
+
+
+/**Asociados**/
+
+.rregular16a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e2337;
+    text-align: center;
+
+}
+
+hr.asociados{
+
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: relative;
+    right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.bg-asociados {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/portfolio/fondo-asociados.png) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.boxsocios {
+    margin-top: 0px;
+    background-color: #fff;
+    border: none;
+    opacity: 0.8;
+    width: 400px;
+    height: 300px;
+}
+
+.imgsocios {
+    width: 218px;
+    height: 56px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3rem;
+    
+}
+
+.imgsociosunam {
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-flip:hover .backside, .image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+    
+    .image-flip:hover .frontside, .image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    }
+    
+    .image-flip {
+    margin-bottom:5rem;
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    }
+    
+    .mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    }
+    
+    .frontside, .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    .frontside {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    }
+    
+    .backside {
+    background: white;
+    opacity: 0.8;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    
+    .card, .card-img-top {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    }
+
+/**Termina Asociados **/
+
+
+/**Membresías**/
+
+.icon-membresias {
+    width: auto;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.rbold24 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #606060;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.rregular20 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+    text-align: center;
+}
+
+.rregular20x {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #338d98;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.rlight40m {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #606060;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.rbold20m {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #606060;
+    text-align: center;
+}
+
+
+/**Termina membresías**/
+
+
+/**Instalaciones**/
+
+.imginstalaciones {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: rgba(4,188,140);
+    opacity: 0.7 ;
+}
+
+.imginstalaciones:hover {
+    opacity: 1;
+}
+
+.position-absolute{
+    top: 220px;
+    left: 50px;
+    bottom: 0;
+    height: 0%;
+    margin: auto;
+}
+
+.position-relative{
+    position: relative;
+    color: white;
+}
+
+.rbold40 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffff;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/**Termina instalaciones**/
+
+
+/**Espacios**/
+
+.imgespacios {
+    width: auto;
+    height: 141px;
+   margin-bottom: 3rem;
+}
+.rregular20es {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+    text-align: left;
+}
+
+.rbold24es {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #606060;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.rregular20y {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #338d98;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+/**Termina espacios**/
+
+/**Servicios**/
+.bg-servicios{
+   background-color: #338d98;
+}
+
+.rregular20s {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    text-align: left;
+    
+}
+
+.rregular20sbtn {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.iconservicios{
+    height: 30px;
+    width: 30px;
+  
+}
+
+.rlight40s {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #ffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.rbold20s {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+}
+
+.btnservicios {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background-color: #00daa6;
+    width: 300px;
+    height: 66px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.btndisp {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background-color: #00daa6;
+    width: 400px;
+    height: 66px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+/**Termina Servicios**/
+
+/**Organiza evento**/
+
+.boxeventoimg {
+    background-color: #338d98;
+    border: none;
+    width: 350px;
+    height: 220px;
+}
+
+.boxeventotxt {
+    background-color: #e3fcf4;
+    border: none;
+    width: 350px;
+    height: 100px;
+}
+
+.cenefa{
+    background-color: #00daa6;
+    border: none;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    bottom: 18rem;
+}
+
+.rregular20e {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 0.5rem;
+    letter-spacing: 1px;
+ 
+}
+
+.rbold20e {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px; /* se cambió apropósito a 18*/
+    color: #606060;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.imgevento{
+    width: 290px;
+    height: inherit;
+    position: relative;
+    float:right;
+    
+}
+
+/** Termina organiza evento **/
+
+/**Ubicación**/
+
+.bg-ubicacion {
+    background-color: #e3fcf4!important
+}
+
+/*
+#map {
+    height: 400px;
+    width: 100%;
+}
+*/
+
+.map {
+    width: auto;
+    height: auto;
+}
+
+
+.rregular20u {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+    text-align: left;
+}
+
+.rlight40u {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #606060;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.btnubicacion {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background-color: #00daa6;
+    width: 340px;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgmap {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    margin-left: -2rem;
+}
+
+
+/**Termina Ubicación**/
+
+
+/** Footer **/
+
+#footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #1e2337;
+    color: #fff
+}
+
+.footer .list-group > li > a:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+    color:  #00daa6;
+}
+
+.logofoot{
+    width: 230px;
+    height: auto;
+}
+
+a.contact-footer {
+    cursor: pointer;
+    text-decoration: none;
+    color:#ffff;
+}
+
+.pos-btn{
+    position: absolute;
+    bottom:0.2rem;
+}
+/** Termina Footer **/
+
+
+/**Fuentes**/
+
+.rregular16 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.rregular16center {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.rregular18 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.rregular24 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.rregular26 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.rregular26btn {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26px;
+    color: #00daa6;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+}
+
+
+.rregular26btn2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+}
+
+
+
+.rbold44 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+}
+
+.rlight40 {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.redes {
+    position: relative;
+    left: 146px;
+}
+
+.menufooter {
+    position: relative;
+    left: 30px;
+}
+
+hr.lineahr {
+    border: none;
+    background-color: #fff;
+    height: 250px;
+    width: 2px;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding-bottom: 0rem;
+    position: relative;
+    bottom: 30px;
+}
+
+hr.bottom {
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    margin-bottom:3rem;
+}
+
+hr.ubicacion {
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    margin-bottom:3rem;
+    position: absolute;
+    bottom: 13rem;
+}
+
+hr.instalaciones{
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: relative;
+    margin:0px;
+
+}
+hr.list0{
+    width: 55px;
+    height: 3px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    left: 40.5rem;
+    margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+    
+    .header{
+        min-height: 60vh;
+    }
+    
+    
+    .header .btnheader {
+    border-radius: 40px;
+    border-style: 1px solid;
+    border-color: #00daa6;
+    background: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 0rem;
+    }
+
+    .logonav{
+    width: 100px;
+    height: auto;
+    }
+
+    .rregular16center{
+    font-size: 11pt;
+    }
+    .rbold20s{
+    font-size: 11pt;
+    }
+    .rregular26 {
+    font-size: 11pt;
+    }
+
+    .rregular26btn {
+    font-size: 11pt;
+    padding-bottom: 2rem;
+    }
+
+    .rregular26btn2 {
+        font-size: 11pt;
+        padding-bottom: 2rem;
+        }
+    
+    .rlight40{
+    font-size: 14pt;
+    }
+    .rbold44 {
+    font-size: 14pt;
+    margin-top:0rem !important;
+    }
+
+    .imgsocios{
+    width: 115px;
+    height: auto;
+    }
+
+    .card {
+        width: 180px;
+        height: auto;
+    }
+
+    .boxsocios{
+    margin: 0px;
+    background-color: #fff;
+    border: none;
+    opacity: 0.8;
+    width: fit-content;
+    height: auto;
+    }
+
+    .rlight40m{
+    font-size: 22pt;
+    }
+
+    .rbold24{
+    font-size: 16pt;
+    }
+
+    .rregular20x{
+    font-size: 11pt;
+    }
+
+    .rregular20y{
+    font-size: 11pt;
+    display: flex;
+    justify-content: center;
+    }
+
+    .rregular20{
+    font-size: 11pt;
+    }
+
+    .rregular20es{
+    font-size: 11pt;
+    text-align: center;                                                                                                                         
+    }
+
+    
+    .rbold24es {
+    font-size: 16pt;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .icon-membresias {
+    width: auto;
+    height: 60px;
+
+    }  
+    
+    .rbold20m{
+    font-size:11pt;
+    }
+
+    .rlight40s{
+    font-size: 22pt;
+    }
+
+    .rregular20s{
+    font-size: 11pt;
+    }
+
+    .iconservicios{
+    height: 15px;
+    width: 15px;
+    }
+
+    .btnservicios {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background-color: #00daa6;
+    width: 217px;
+    height: 35px;
+    position: relative;
+    }
+
+    .btndisp {
+        width: 300px;
+        height: 50px;
+    }
+
+    .rregular20sbtn{
+    font-size: 11pt;
+    }
+
+    .rbold20e{
+    font-size: 11pt;
+    }
+
+    .rregular20e{
+        font-size: 14pt;
+    }
+
+    .center{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .rlight40u{
+        font-size: 22pt;
+    }
+
+    .rregular20u{
+        font-size: 11pt;
+    }
+
+    .rregular16{
+        font-size: 8pt;
+    }
+
+    .rregular18{
+        font-size: 11pt;
+    }
+
+    .rbold40{
+        font-size: 15pt;
+    }
+
+    hr.bottom{
+        margin-bottom: 1rem;
+    }
+
+    .position-absolute{
+        top: 100px;
+        left: 25px;
+        bottom: 0;
+        height: 0%;
+        margin: auto;
+    }
+
+    .salacap {
+    bottom: 60px !important;
+    
+    }
+
+    
+    .position-relative{
+        position: relative;
+        color: white;
+    }
+
+    hr.instalaciones{
+        width: 50px;
+        height: 2px;
+        color: #00daa6;
+        background-color: #00daa6;
+        position: relative;
+        margin:0px;
+    
+    }
+
+    hr.ubicacion {
+        width: 50px;
+        height: 2px;
+        color: #00daa6;
+        background-color: #00daa6;
+        margin-bottom:3rem;
+        position: absolute;
+        top: 3rem;
+    
+    }
+    .lineahr{
+        display: none;
+    }
+
+    .rregular16a {
+    font-size: 10pt;
+    text-align: left !important;
+    }
+
+    hr.asociados {
+        left: -3rem;
+    }
+
+    .rregular24{
+    font-size: 14pt;
+    }
+
+    button.buttoncontact {
+        width: 100px;
+        margin-top: 2rem;
+        margin-left: -4rem;
+    }
+
+    .posbtn {
+        position: relative;
+        bottom: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 0px !important;
+    }
+    
+    .collapse.show {
+        height: 206px;
+    }
+    
+    .centrar {
+        text-align: center !important;
+        margin: 0px auto;
+        
+    }
+
+    .imgresponsive {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .imgmap {
+        width: auto;
+        height: auto;
+        border-radius: 50px;
+        margin: 0px auto;
+        margin-top: -5rem;
+    }
+
+    .navbar-bottom-border {
+        border-bottom: 1px solid #00daa6;
+    }
+    
+    #btnFixed {
+        width:150px;
+        height:60px;
+    
+    }
+    
+
+    .asociadosmargin {
+        margin-left: -1rem !important;
+    }
+
+    .imgsociosunam {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem !important;
+    }
+    .headerEspacios {
+        min-height: 30vh;
+    }
+    
+    .positiones{
+        position: absolute;
+        top:7rem;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color: #fff;
+        font-size: 10pt;
+    }
+    
+    .headerInsta {
+        min-height: 30vh;
+    }
+
+    .imageninstalaciones {
+        margin-bottom: 2rem;
+    }
+
+    button.buttonvolver {
+        width: 100px;
+        margin-top: 2rem;
+    }
+
+}

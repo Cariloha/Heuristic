@@ -1,0 +1,299 @@
+.bg-subnav{
+    background-color: #00daa6;
+
+}
+
+.h-asociados {
+    background: url(../img/head-asociados.png) no-repeat center;
+    background-size: 100% 100%;
+   min-height: 65vh;
+}
+
+.imgasociados {
+    width: 218px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+    position: relative; 
+}
+
+.imgasociados.unam{
+    width: 100px;
+    height: 100px;
+    bottom:1.5rem;
+}
+
+.imgasociados.energy{
+    height: 90px;
+    bottom:1.5rem;
+}
+
+
+.imgasociados img {
+    width: 100%; 
+    height: 100%;   
+}
+
+.efecto{
+    border-bottom: 2pt solid;
+    color: #00daa6;
+    width: 120px;
+    position: absolute;
+    top:7rem;
+    left: 4rem;
+    margin-left: -1.3rem;
+    margin-top: -1.2rem;
+    display: none;
+}
+
+.efecto.unam {
+    top:9rem;
+    left: 0.7rem;
+
+}
+
+.efecto.energy {
+    top:9rem;
+}
+
+.imgasociados:hover .efecto{
+    display: block;    
+}
+
+.posasociados{
+    position: absolute;
+    top:12rem;
+}
+
+.pagination.asociados {
+    height: 40px;
+}
+
+.pagination a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffff; 
+    background-color: transparent; 
+    border-style: none;      
+}
+.pagination a:hover, .pagination .active a {
+    background-color: transparent;
+    color:#ffff;
+}
+.pagination .active a {
+    background-color: transparent;
+    cursor: default;
+}
+.pagination .disabled a, .pagination .disabled a:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+.subnav-border {
+    width: 30px;
+    margin-left: 0.5rem;
+    display: block;
+    border-bottom: 2px solid #000000;
+    display: none;
+    padding-top: 0px;
+}
+
+li:hover .subnav-border {
+    display: block;
+}
+
+.imglogo{
+    width: 80%;
+    height: auto;
+}
+
+.imgunam{
+    width: 60%;
+    height: auto;
+}
+
+
+.titulo {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #1E2337;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.titulo.canieti{
+    font-size: 36px;
+}
+
+.link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #00daa6;
+    text-align: left;
+}
+
+.negritas {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    color: #1E2337;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.texto{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+    text-align: left;
+
+}
+
+.negritas.canieti{
+    font-size: 24px;
+
+}
+
+
+
+a.link:hover {
+    border-color: #00daa6;
+    color: #00daa6;
+}
+
+.poslogo{
+    position: relative;
+    top: 8rem;
+    margin-left: -10rem;
+}
+
+.posenergy{
+    position: relative;
+    top: 4rem;
+    margin-left: -10rem;
+
+}
+
+.posunam{
+    position: relative;
+    top: 3rem;
+    margin-left: -10rem;
+
+}
+
+
+hr.asociados {
+   transform: rotate(90deg);
+    width: 300px;
+    position: absolute;
+    right: -8rem;
+    bottom: 12.5rem;
+    border:2px;
+    background-color: #1e2337;
+}
+
+hr.asociados.canieti {
+    width: 400px;
+    bottom: 16rem;
+    right:-11rem;
+}
+
+hr.asociados.marina {
+    width: 450px;
+    bottom: 17rem;
+    right:-11rem;
+}
+
+
+hr.asociados.plenum {
+    width: 420px;
+    bottom: 17rem;
+    right:-11rem;
+}
+
+
+
+hr.asociados.compax {
+    width: 400px;
+    bottom: 14rem;
+    right:-11rem;
+}
+
+
+hr.asociados.dronaid {
+    width: 420px;
+    bottom: 16rem;
+    right: -12rem;
+
+}
+
+hr.asociados.zen {
+    width: 380px;
+    bottom: 14rem;
+    right:-10rem;
+
+}
+
+hr.asociados.innova {
+    transform: rotate(90deg);
+    width: 420px;
+    position: absolute;
+    right: -10rem;
+    bottom: 16rem;
+    border:2px;
+    background-color: #1e2337;
+ }
+ 
+
+@media (max-width: 767px) { 
+    .h-asociados {
+       min-height: 30vh;
+    }
+    
+
+    .imgasociados {  
+    width: 180px;
+    height: auto;
+    }
+
+    .efecto{
+        border-bottom: 2pt solid;
+        width: 100px;
+        position: absolute;
+        top:7rem;
+        left: 4rem;
+    }
+
+    .titulo {
+        font-size: 20pt !important;
+    }
+    
+    .texto{
+        font-size: 11pt !important;
+    
+    }
+    .negritas {
+        font-size: 15pt !important;
+    }
+    
+    .pagination a {
+        font-size: 10pt;
+    }
+    
+    .subnav-border {
+    margin-left: 0.8rem;
+    border-bottom: 1px solid #000000;
+    }
+    .posasociados{
+        position: absolute;
+        top:8rem;
+    }
+    
+    
+}

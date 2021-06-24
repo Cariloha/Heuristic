@@ -1,0 +1,103 @@
+.bg-subnav{
+    background-color: #00daa6;
+}
+
+.reglasbanner {
+    background: url(../img/head-reglas.png) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.postextbanner{
+    position: absolute;
+    top: 30rem;
+}
+
+.pagination.reglas{
+    height: 40px;
+}
+
+
+hr.reglas {
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    left: 1rem;
+    top:3rem;
+}
+
+.boldtext {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14pt;
+    color: #1E2337;
+}
+
+.regulartext {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14pt;
+    color: #1E2337;
+}
+
+@media (max-width: 988px) {
+
+    .reglasbanner {
+        background: url(../img/head-reglas.png) no-repeat center;
+        background-size: 100% 100%;
+        min-height: 40vh;
+    }
+
+    .postextbanner{
+        position: absolute;
+        top: 18rem;
+    }
+    
+
+    hr.reglas {
+        left: 1rem;
+        top:5rem;
+    }
+
+    .banner {
+        background-size: 5% 5%;
+        min-height: 20vh;
+    }
+
+}
+
+@media (max-width: 767px) {
+    hr.reglas {
+        left: 1rem;
+        top:7rem;
+    }
+
+    .postextbanner{
+        position: absolute;
+        top: 6rem;
+        left:0rem;
+    }
+
+
+    .banner {
+        background-size: 5% 5%;
+        min-height: 65vh;
+    }
+
+    .boldtext {
+        font-size: 11pt;
+    }
+    
+    .regulartext {
+        font-size: 11pt;
+    }
+    
+    .reglasbanner {
+        min-height: 20vh;
+
+    }
+    
+    
+}

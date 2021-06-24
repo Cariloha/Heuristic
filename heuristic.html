@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <title>Heuristic</title>
+    <script type="text/javascript">
+        /*
+        window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("btnFixed").style.display = "block";
+            } else {
+            document.getElementById("btnFixed").style.display = "none";
+            }
+            };*/
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.documentElement.scrollTop > 80 && document.documentElement.scrollTop < 7250) {
+                document.getElementById("btnFixed").style.display = "block";
+            } else {
+                document.getElementById("btnFixed").style.display = "none";
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div id="btnFixed">
+        <a href="contacto.html">
+            <img class="contact" src="img/iconos/icono-contacto.png">
+            <a class="btnFixed fixed rregular18" href="contacto.php">CONTACTO</a>
+        </a>
+    </div>
+
+    <script src="js/jquery.slim.js "></script>
+    <script src="js/popper.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/scripts.js "></script>
+
+    <!--NavBar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.php">
+                <img class="d-inline-block align-top logonav" src="img/logo-header.png">
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav home centrar ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link rregular18nv" href="#instalaciones">Instalaciones</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link rregular18nv" href="#miembros">Asociados</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link rregular18nv" href="#membresias">Membresías</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link rregular18nv" href="#espacios">Espacios</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link rregular18nv" href="#servicios">Servicios</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link rregular18nv" href="#ubicacion">Ubicación</a>
+                        <div class="navbar-bottom-border"></div>
+                    </li>
+
+                    <li class="btn-flotante ml-3 posbtn">
+                        <a class="btn btn-primary rregular18" href="contacto.php" role="button">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-10 align-self-center">
+                    <p class="rbold44 mt-5">AQUI SE DESARROLLA LA INNOVACIÓN</p>
+                    <p class="rregular26">Centro líder donde se ubican las principales empresas
+                        <b>desarrolladoras de proyectos de innovación en Tecnologías</b> de la información en el sureste mexicano</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a:active class="btnheader btnhead rregular26btn2" href="index.php">SÉ PARTE DEL CAMBIO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Instalaciones-->
+    <section class="instalaciones" id="intro">
+        <div class="container-fluid bg-primary">
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-12 align-self-center mt-5">
+                    <h1 class="rlight40">¿POR QUÉ HEURISTIC?</h1>
+                    <p class="rbold20s">Conoce los beneficios que respaldarán tu decisión</p>
+                    <hr class="bottom" />
+                </div>
+            </div>
+
+            <!---Video-->
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-11">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" src="img/Heuristicv6_final.mp4" type="video/mp4" allowfullscreen controls></video>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!--/Video-->
+
+            <!--Row 1-->
+            <div class="row justify-content-center mt-5">
+                <!--Primera columna, tomando en cuenta todo el row dividido en 4 partes que son las 4 descripciones-->
+                <div class="col-12 col-md-3 mb-5">
+                    <!--Dentro de la columna se agrega una fila para poder manipular mejor la parte responsiva-->
+                    <div class="row justify-content-center">
+                        <!--Metemos la segunda columna, tomando en cuenta que a pesar que ya dividimos en 3 partes, esta parte se vuelve una sola, por lo tanto podemos utilizar 12-col-->
+                        <div class="col-7 col-md-9 text-center">
+                            <img class="imgx mb-5" src="img/iconos/icon-networking.png">
+                            <p class="rregular16center">Crece tu Networking con los demás asociados y trabaja conjuntamente con la CANETI en un mismo edificio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-7 col-md-9 text-center">
+                            <img class="imgx mb-5" src="img/iconos/icon-acceso.png">
+                            <p class="rregular16center">Acceso y participación directa en las decisiones de la asociación.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-7 col-md-9 text-center">
+                            <img class="imgx mb-5" src="img/iconos/icon-capacitacion.png">
+                            <p class="rregular16center">Acceso a cursos de capacitación con costo preferencial.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-7 col-md-9 text-center">
+                            <img class="imgx mb-5" src="img/iconos/icon-acuerdos.png">
+                            <p class="rregular16center">Uso de los beneficios adquiridos por convenios con Instituciones de Educación Superior y con diferentes Centros de Investigación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+        </div>
+    </section>
+    <!--Miembros-->
+    
+    <!--Membresías-->
+    <section id="membresias">
+        <div class="container bg-secondary">
+            <div class="row justify-content-center">
+                <div class="col-md-12 mt-5">
+                    <h1 class="rlight40m">MEMBRESÍAS</h1>
+                    <p class="rbold20m">Conoce los planes que tenemos para ti e impulsa tu negocio</p>
+                    <hr class="bottom" />
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 text-center mb-5">
+                    <img class="icon-membresias" src="img/iconos/asociados.png">
+                    <p class="rbold24">ASOCIADOS</p>
+                    <p class="rregular20">Participa en proyectos a través del Clúster, con oficina propia con Wifi independiente, telefonía y servidores virtuales</p>
+                    <a class="rregular20x" href="membresias.php">CONOCER BENEFICIOS>></a>
+                </div>
+
+                <div class="col-12 col-md-4 text-center mb-5">
+                    <img class="icon-membresias" src="img/iconos/socios.png">
+                    <p class="rbold24">SOCIOS</p>
+                    <p class="rregular20">Precio preferencial en capacitaciones y certificaciones, usa el área de coworking y obtén 10 hrs. de sala de juntas al mes.</p>
+                    <a class="rregular20x" href="membresias.php">CONOCER BENEFICIOS>></a>
+                </div>
+
+                <div class="col-12 col-md-4 text-center mb-5">
+                    <img class="icon-membresias" src="img/iconos/miembros.png">
+                    <p class="rbold24">MIEMBROS</p>
+                    <p class="rregular20">Precio preferencial en capacitaciones y certificaciones, usa el área de coworking y obtén 5 hrs. de sala de juntas de al mes.</p>
+                    <a class="rregular20x" href="membresias.php">CONOCER BENEFICIOS>></a>
+                </div>
+            </div>
+            <br />
+        </div>
+    </section>
+
+    <!--Instalaciones-->
+    <section id="instalaciones">
+        <div class="container-fluid mt-5">
+            <div class="row justify-content-center">
+
+                <div class="col-6 col-md-4" style="background: #1e2337;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php#cowork">
+                            <img class="imginstalaciones" src="img/portfolio/img-networking.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute">
+                        <p class="rbold40">Coworking</p>
+                        <hr class="instalaciones" />
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4" style="background: #338d98;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php">
+                            <img class="imginstalaciones" src="img/portfolio/racks.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute">
+                        <p class="rbold40">Renta de racks</p>
+                        <hr class="instalaciones" />
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4" style="background: #04bc8c;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php#capyshow">
+                            <img class="imginstalaciones" src="img/portfolio/img-showroom.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute">
+                        <p class="rbold40">Showroom</p>
+                        <hr class="instalaciones">
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4" style="background: #338d98;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php#capyshow">
+                            <img class="imginstalaciones" src="img/portfolio/img-sala-de-capacitacion.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute salacap">
+                        <p class="rbold40">Sala de capacitación</p>
+                        <hr class="instalaciones" />
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 " style="background: #04bc8c;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php#comunes">
+                            <img class="imginstalaciones" src="img/portfolio/img-areas-comunes.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute">
+                        <p class="rbold40">Áreas comunes</p>
+                        <hr class="instalaciones" />
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4" style="background: #1e2337;padding-left: 0px;padding-right: 0px;">
+                    <div class="position-relative">
+                        <a href="instalaciones.php">
+                            <img class="imginstalaciones" src="img/portfolio/img-oficinas-privadas.png">
+                        </a>
+                    </div>
+                    <div class="position-absolute">
+                        <p class="rbold40">Oficinas privadas</p>
+                        <hr class="instalaciones" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Renta de espacios-->
+    <section id="espacios">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 mt-5">
+                    <h1 class="rlight40m">RENTA DE ESPACIOS</h1>
+                    <p class="rbold20m">Conoce los diferentes espacios que Heuristic tiene para ti</p>
+                    <hr class="bottom" />
+                </div>
+            </div>
+            <br />
+
+            <div class="row center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="rbold24es">SILVER</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="rregular20es">Cuatro estaciones de trabajo incluye mobiliario, internet, seguridad y sala de juntas</p>
+                            <a class="rregular20y" href="espacios.php#silver">CONOCER BENEFICIOS>></a>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img class="imgespacios" src="img/portfolio/Silver-lq.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="rbold24es">PLATINUM</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="rregular20es">Nueve estaciones de trabajo incluye mobiliario, internet, seguridad y salas de juntas</p>
+                            <br class="espacios" />
+                            <a class="rregular20y" href="espacios.php#platinum">CONOCER BENEFICIOS>></a>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img class="imgespacios" src="img/portfolio/Platinum-lq.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="rbold24es">ELITE</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="rregular20es">Quince estaciones de trabajo incluye mobiliario, internet, seguridad y sala de juntas</p>
+                            <a class="rregular20y" href="espacios.php#elite">CONOCER BENEFICIOS>></a>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img class="imgespacios" src="img/portfolio/Elite-lq.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="rbold24es">PREMIUM</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="rregular20es">Veinticinco estaciones de trabajo incluye mobiliario, internet, seguridad y salas de juntas</p>
+                            <a class="rregular20y" href="espacios.php#premium">CONOCER BENEFICIOS>></a>
+                        </div>
+                        <div class="col-12 col-md-6 mb-5">
+                            <img class="imgespacios" src="img/portfolio/Premium-lq.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!--Servicios-->
+    <section id="servicios">
+        <div class="container-fluid bg-servicios">
+            <div class="row justify-content-center">
+                <div class="col-12 mt-5">
+                    <h1 class="rlight40s">Servicios</h1>
+                    <p class="rbold20s">Cada espacio está diseñado para realizar tus actividades de manera eficiente</p>
+                    <hr class="bottom" />
+                </div>
+            </div>
+            <br />
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right offset-md-2 pr-1">
+                            <img class="iconservicios" src="img/iconos/icon-atraccion.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Ejecución de proyectos de tecnología a través de nuestro grupo de asociados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right pr-0">
+                            <img class="iconservicios" src="img/iconos/icon-transferencia.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Transferencia de tecnología</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right offset-md-2 pr-1">
+                            <img class="iconservicios" src="img/iconos/icon-laboratorios.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Laboratorio de hardware para desarrollo de proyectos y entrenamiento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right pr-0">
+                            <img class="iconservicios" src="img/iconos/icon-centro.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Centro de negocios para compañías de TI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right offset-md-2 pr-1">
+                            <img class="iconservicios" src="img/iconos/icon-seguridad.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Espacios de oficinas para renta con controles se seguridad independientes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right pr-0">
+                            <img class="iconservicios" src="img/iconos/icon-sitio.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Servicio de host de servidores en un site totalmente controlado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right offset-md-2 pr-1">
+                            <img class="iconservicios" src="img/iconos/icon-alojamiento.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Alojamiento de datos y servidores virtuales</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right pr-0">
+                            <img class="iconservicios" src="img/iconos/icon-01.png">
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s">Renta de espacios para juntas, capacitaciones y conferencias con WiFi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right offset-md-2 pr-1">
+                            <img class="iconservicios" src="img/iconos/icon-formacion.png">
+                        </div>
+                        <div class="col-8 mb-5">
+                            <p class="rregular20s">Cursos, talleres, ciclos de conferencias y diplomados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-right pr-0">
+                            <!--  <img class="iconservicios" src=""> -->
+                        </div>
+                        <div class="col-8">
+                            <p class="rregular20s"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Botón-->
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-4 text-center mb-5">
+                    <a href='servicios.php'>
+                        <button class="btnservicios rregular20sbtn">CONOCER MÁS</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Organiza tu evento con nosotros-->
+    <section id="org-evento">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 mt-5">
+                    <h1 class="rlight40m">ORGANIZA TU EVENTO CON NOSOTROS</h1>
+                    <p class="rbold20m">Nuestras instalaciones estan disponibles para tus conferencias, talleres y capacitaciones, <br /> consulta nuestras fechas disponibles</p>
+                    <hr class="bottom" />
+                </div>
+            </div>
+            <br />
+
+            <div class="row justify-content-around">
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-01.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">Curso de "Actualización reformas" a la ley de propiedad industrial</div>
+                            <div class="cenefa rregular20e align-text:center">CAPACITACIÓN</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-02.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">JUUN Jornadas en tecnologías de la información</div>
+                            <div class="cenefa rregular20e align-text:center">CONFERENCIAS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-03.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">Diseño, Arquitectura y Consultoría de Proyectos para la industria 4.0</div>
+                            <div class="cenefa rregular20e align-text:center">DIPLOMADO</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-04.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">Diseño de circuitos eléctricos para maquinado</div>
+                            <div class="cenefa rregular20e align-text:center">TALLER</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-05.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">Aplicación del sistema de proopiedad intelectual para el incremento del valor en las TICs</div>
+                            <div class="cenefa rregular20e align-text:center">CAPACITACIÓN</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-4 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="boxeventoimg"><img class="imgevento" src="img/portfolio/e-06.png"></div>
+                            <div class="boxeventotxt rbold20e align-text:left">"Inducción al análisis de imágenes satelitales" impartida por la agencia Espacial Mexicana en Heuristic</div>
+                            <div class="cenefa rregular20e align-text:center">CAPACITACIÓN</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Botón-->
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-4 text-center mb-5">
+                    <a href="https://www.facebook.com/Heuristic-Center-1654611494781106/" target="_blank">
+                        <button class="btndisp rregular20sbtn" href="https://www.facebook.com/Heuristic-Center-1654611494781106/">CONSULTAR DISPONIBILIDAD</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Ubicación -->
+    <section id="ubicacion">
+        <div class="container-fluid bg-ubicacion">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-5 mt-5 mb-5">
+                    <h1 class="rlight40u">UBICACIÓN</h1>
+                    <hr class="ubicacion" />
+                    <p class="rregular20u mt-5">El Centro de Innovación se encuentra en el Parque Científico Tecnológico de Yucatán, en la ciudad de Mérida, Yucatán.</p>
+                    <p class=" rregular20u">Nos encontramos a 20 minutos de la ciudad de Mérida, uno de los asentamientos urbanos más seguros del país, reconocida por su clima de paz y ambiente cordial.</p>
+                </div>
+
+                <div class="col-12 col-md-5 offset-md-1 mb-5">
+                    <!--id="map">-->
+                    <div class="row">
+                        <div class="col-12 mt-5 text-left">
+                            <a href="https://www.google.com.mx/maps/place/Heuristic/@21.1325067,-89.7815605,17z/data=!4m5!3m4!1s0x0:0x6e0f05aaaa2d0e05!8m2!3d21.1335155!4d-89.7791838" target="_blank">
+                                <img class="img-fluid imgmap" src="img/mapa.png" href="#">
+                            </a>
+                            <!--
+                            <script>
+                                function initMap() {
+                                    var options = {
+                                    center: new google.maps.LatLng(21.133762, -89.779232),
+                                    zoom: 15,
+                                }
+
+                                var map = new google.maps.Map(document.getElementById('map'), options);
+                                var marker = new google.maps.Marker({
+                                map: map,
+                                position: {
+                                    lat: 21.133762,
+                                    lng: -89.779232
+                                },
+                                title: 'Heuristic'
+                                });
+                                }
+                            </script>
+                            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCzq3TBPvZfdg86FBkvO1-qXYdTKq72sg&callback=initMap " async defer></script>
+                        -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container-fluid">
+            <div class="container ml-0">
+                <div class="row">
+                    <div class="col-12 col-md-5 ml-0">
+                        <div class="row justify-content-center centrar">
+                            <div class="col-12 col-md-10">
+                                <a href="index.php">
+                                    <img class="d-inline-block align-top logonav mb-3" src="img/logo-footer.png ">
+                                </a>
+                                <p class="rregular16 mt-2 mb-1"> Parque Científico y Tecnológico de Yucatán</p>
+                                <p class="rregular16"> Carretera Sierra Papacal km 5</p>
+                            </div>
+                            <div class="col-md-1">
+                                <hr class="lineahr">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12 col-md-6 centrar">
+                                <ul class="list-group mb-0">
+                                    <li class="list-inline-item">
+                                        <a class="rregular18" href="instalaciones.php">INSTALACIONES</a>
+                                        <br />
+                                        <a class="rregular18" href="membresias.php">MEMBRESÍAS</a>
+                                        <br />
+                                        <a class="rregular18" href="asociados.php">ASOCIADOS</a>
+                                        <br />
+                                        <a class="rregular18" href="espacios.php">ESPACIOS</a>
+                                        <br />
+                                        <a class="rregular18" href="servicios.php">SERVICIOS</a>
+                                        <br />
+                                        <a class="rregular18" href="contacto.php#ubicacion">UBICACIÓN</a>
+                                        <br />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 centrar">
+                                <ul class="list-group mb-0">
+                                    <li class="list-inline-item">
+                                        <a class="rregular18" href="filosofia.php">FILOSOFÍA</a>
+                                        <br />
+                                        <a class="rregular18" href="requisitos.php">REQUISITOS</a>
+                                        <br />
+                                        <a class="rregular18" href="reglas.php">REGLAMENTO</a>
+                                        <br />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <div class="row">
+                            <div class="col-10 ml-5 pl-5 centrar">
+                                <button class="buttoncontact">
+                                    <a class="rregular24 contact-footer" href="contacto.php">Contacto</a>
+                                </button>
+                                <a href="https://www.facebook.com/Heuristic-Center-1654611494781106/" target="_blank">
+                                    <img class="img-fluid ml-2 pos-btn" src="img/iconos/i-face.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.slim.js "></script>
+    <script src="js/popper.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/scripts.js "></script>
+</body>
+</html>

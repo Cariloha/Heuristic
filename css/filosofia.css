@@ -1,0 +1,97 @@
+.bg-subnav{
+    background-color: #00daa6;
+}
+
+.filosofiabanner {
+    background: url(../img/header-filosofia.png) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.fondoverde{
+    background-color: #E6FCF5;
+}
+
+.pos-contenedor{
+    margin-left:6.5rem;
+}
+
+
+.titulothin {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 22pt;
+    color: #1E2337;
+    margin-bottom: 1rem !important;
+}
+
+.regulartext-filos {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13.4pt;
+    color: #606060;
+}
+
+.nombredirector{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14pt;
+    color: #00daa6;
+}
+
+hr.filos {
+    width: 35px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    top: 2rem;
+
+}
+
+@media (max-width: 767px) {
+
+    .filosofiabanner {
+        background: url(../img/header-filosofia.png) no-repeat center;
+        background-size: 100% 100%;
+        min-height: 20vh;
+    }
+    
+    .imgmobile {
+        width: 50%;
+        height: 100%;
+        padding-left: 1.5rem !important;
+    }
+
+    .titulothin {
+        font-size: 18pt;
+        margin-bottom: 1rem !important;
+        padding-left: 1.5rem !important;
+    }
+    
+    .regulartext-filos {
+        font-size: 11pt;
+        padding-left: 1.5rem !important;
+
+    }
+    
+    .nombredirector{
+        font-size: 10pt;
+        padding-left: 1.5rem !important;
+
+    }
+
+    hr.filos {
+        height: 1px;
+        left: 2.5rem;
+        margin-top: 0.5rem !important;
+    }
+
+    .nomarginbtm{
+        margin-bottom: 0rem !important;
+
+    }
+    
+    
+
+}

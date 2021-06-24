@@ -1,0 +1,173 @@
+.secondheader {
+    background: url(../img/membresias-header.png) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+
+.navbar.secondnavbar {
+    background-color: #1e2337 !important;
+}
+
+.secondheader .btnheader {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #00daa6;
+    background: none;
+    width: 350px;
+    height: 75px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.secondheader .btn-flotante > a:hover{
+    text-decoration: none;
+    background-color: #00daa6 !important;
+    border-color: #00daa6;
+    border-style: solid;
+}
+
+.memheader{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.memlist{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: #1e2337;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+hr.list{
+    width: 50px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    left: 1rem;
+    margin-top: 0px;
+}
+
+
+.membresiaslist{
+ padding-left: 1rem;
+}
+
+ul.milista {
+    list-style: none;
+    text-indent: -0.57rem;
+    margin-top: 1rem;
+    padding-left: 0rem;
+  }
+  
+ul.milista li::before {
+    content: "\2022";
+    color: #00daa6;
+    font-weight: bold;
+    width: 1em;
+    padding-left: 0px;
+  }
+.rregularmiembros{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e2337;
+}
+
+.positionmem{
+    position: absolute;
+    top:25rem;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 767px) { 
+
+    .secondheader {
+        background: url(../img/membresias-header.png) no-repeat center;
+        background-size: 100% 100%;
+        min-height: 25vh;
+    }
+    
+    .positionmem{
+        position: absolute;
+        top:5rem;
+    }    
+
+    .rregularmiembros{
+        font-size: 12pt;
+        text-align: left;
+    }   
+    
+    .memlist{
+        font-size: 22pt;
+        text-align: left !important; 
+        padding-left: 1rem;
+        position: relative;
+    } 
+
+    .memheader{
+        font-size: 18pt;
+    }
+    
+    
+    .btn-flotante {
+        margin-left: 0px;
+    }
+
+    hr.listsocio{
+        width: 50px;
+        height: 2px;
+        color: #00daa6;
+        background-color: #00daa6;
+        position: absolute;
+        right: 15rem;
+        margin-top: 0px;
+    
+    }
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .nomargin {
+        margin: 0px !important;
+        margin-bottom: 1rem !important;
+    }
+
+    hr.list{
+        width: 20px;
+        height: 2px;
+        color: #00daa6;
+        background-color: #00daa6;
+        position: absolute;
+        left: 2rem;
+        margin-top: 0rem;
+    
+    }
+
+    .membresiaslist{
+        padding-left: 1rem;
+       padding-top: 1rem;
+    }
+    
+    ul.milista {
+        margin-top: 0rem;
+        padding-left: 1rem;
+      }
+    
+}
+

@@ -1,0 +1,219 @@
+.user-input-wrp {
+    position: relative;
+}
+
+.badge{
+    border-color: #1E2337 !important;
+}
+
+p.text-left{
+    padding-bottom: 1rem;
+    width: 420px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family: 'Roboto';
+}
+
+.user-input-wrp .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 15px;
+    left: 10px;
+    transition: 0.1s ease all;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.user-input-wrp input:focus ~ .floating-label, 
+.user-input-wrp input:not([value='']) ~ .floating-label{
+    top: 2px;
+    left: 16px;
+    font-size: 11px;
+    opacity: #00DAA6;
+}
+
+hr.list000{
+    width: 55px;
+    height: 3px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    right: 34rem;
+    margin-top: 0px;
+}
+
+hr.list1{
+    margin-bottom: 0px;
+    width: 430px;
+    height: 5px;
+    color: #00daa6;
+}
+
+hr.hello{
+    width: 45px;
+    height: 2px;
+    color: #00daa6;
+    background-color: #00daa6;
+    position: absolute;
+    left: 1rem;
+    margin-top: 0px;
+}
+div.roundb{
+    border: 0.5px solid #1E2337;
+    border-radius: 24px;
+    width: 475px;
+    height: 250px;
+}
+
+.list-group-item{
+    border-top: none;
+    border-bottom: none; 
+    width: 420px;
+}
+.list-group-item.list-group-item-action:focus,
+.list-group-item.list-group-item-action:hover {
+    border: medium;
+    border-radius: 140px;
+    background-color:rgb(205, 255, 253) !important;
+    border-color: rgb(55, 201, 152) !important;
+}
+.list-group-item.active {
+        z-index: 2;
+        color: #606060;
+        transition: 0.1s ease all;
+        background-color: rgb(205, 255, 253) !important;
+        /*border-color: rgb(55, 201, 152) !important;*/
+        outline-color: rgb(55, 201, 152) !important;
+        border-radius: 140px;
+}
+button:focus {
+    border: none !important;
+    outline: 0 !important; 
+}
+.btn.send {
+    position: relative;
+    left: 20px;
+    width: 440px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00daa6;
+    border-color: #00daa6;
+    border-radius: 65px 64px 64px 64px;
+}
+.img-fluid2{
+    position: relative;
+    left: 50px;
+    top: 15px;
+    width: 570px;
+    height: 840px;
+}
+
+.bordecontacto {
+    padding-left:0.8rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: lighter;
+    width: 460px;
+}
+
+.bordecomentarios {
+    height: 180px;
+    border-radius: 30px;
+    width: 480px;
+    border-color: #1E2337
+}
+
+.imgmapa {
+    width: 170%;
+    max-height: 420px;
+}
+
+.titulomapa {
+    font-weight: lighter;
+    font-family: 'Roboto';
+    padding-top: 5rem;
+}
+
+.iconoubi {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top:3rem;
+    left: 24em;
+}
+
+
+.margintop {
+    margin-top: 2rem !important;
+}
+
+
+@media (max-width: 767px){
+    
+
+    h1.display-4 {
+        font-size: 28pt;
+        margin-top: 0rem !important;
+    }
+
+    
+    hr.list1{
+        width: 350px;
+    }
+    
+    .titulomapa {
+        font-weight: lighter;
+        font-family: 'Roboto';
+        padding-top: 2rem;
+        font-size: 18pt;
+    }
+    
+
+    div.roundb{
+        width: 350px;
+        height: 250px;
+    }
+    .list-group-item{
+        width: 300px;
+    }
+
+    
+    .bordecontacto {
+        width: 330px;
+    }
+
+    .bordecomentarios {
+        width: 350px;
+    }
+    
+    .btn.send {
+        position: relative;
+        left: 50px;
+        width: 250px;
+    }
+    
+    .iconoubimobile {
+        width: 25px;
+        height: auto;
+        position: absolute;
+        top:0.5rem;
+    }
+    
+    .textomapa {
+        color:#1E2337;
+        font-family: 'Roboto';
+        font-weight:bold;
+        font-size: 10pt;
+        margin-left: 0px;
+    }
+
+    .contactomapa {
+        width: 100%;
+        height: auto;
+    }
+
+}
